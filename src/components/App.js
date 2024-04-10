@@ -1,6 +1,13 @@
+import Corpo from "./Corpo"
+import Titulo from "./Titulo"
+
 const App = () => {
     return (
-    <p>Testando...</p>
+        <div>
+            <Titulo />
+            <Corpo />
+
+        </div>
     )
 }
 
